@@ -20,14 +20,14 @@ npm run build
 Pixi.js使用WebGL，是一个超快的HTML5 2D渲染引擎。作为一个Javascript的2D渲染器，Pixi.js的目标是提供一个快速的、轻量级而且是兼任所有设备的2D库。提供无缝 Canvas 回退，支持主流浏览器，包括桌面和移动。 Pixi渲染器可以开发者享受到硬件加速，但并不需要了解WebGL。
 
 ## 创建pixi实例 流程
-1.创建一个应用(application)(包含舞台stage)
-2.加载资源（loader）
-3.创建游戏场景
-4.将场景插入舞台(addchild)
-5.把画布插入dom（append）
-6.创建精灵（sprite）
-7.把精灵加入画布（addchild）
-8.刷新舞台（ticker）
+1.创建一个应用(application)(包含舞台stage)<br>
+2.加载资源（loader）<br>
+3.创建游戏场景<br>
+4.将场景插入舞台(addchild)<br>
+5.把画布插入dom（append）<br>
+6.创建精灵（sprite）<br>
+7.把精灵加入画布（addchild）<br>
+8.刷新舞台（ticker）<br>
 9.游戏结束，销毁应用（destroy）
 
 ```
