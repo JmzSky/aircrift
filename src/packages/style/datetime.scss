@@ -1,0 +1,24 @@
+.ui-datetime {
+  width: 100%;
+}
+.ui-datetime .picker-slot-wrapper, .ui-datetime .picker-item {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.ui-datetime .picker-toolbar {
+  border-bottom: solid 1px #eaeaea;
+}
+.ui-datetime-action {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: #26a2ff;
+}
+.ui-datetime-cancel {
+  float: left;
+}
+.ui-datetime-confirm {
+  float: right;
+}

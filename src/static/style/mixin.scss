@@ -1,0 +1,83 @@
+$background: #26a2ff;  
+$color : #26a2ff;
+
+@mixin boxsizing(){
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+@mixin bis($url) { 
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+@mixin borderRadius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+//定位全屏
+@mixin allcover{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+//定位上下左右居中
+@mixin center {  
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//定位上下居中
+@mixin ct {  
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+//定位左右居中
+@mixin cl {  
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+//宽高
+@mixin wh($width, $height){
+	width: $width;
+	height: $height;
+}
+
+//字体大小、行高、字体
+@mixin font($size,$line-height, $text-align: center) {  
+	font-size: $size;
+	line-height: $line-height;
+	text-align: $text-align;
+}
+
+//字体大小，颜色
+@mixin sc($size, $color){
+	font-size: $size;
+	color: $color;
+}
+
+//flex 布局和 子元素 对其方式 space-between
+//align-content: flex-start flex-end center space-between space-around stretch;
+//justify-content: flex-start flex-end center space-between space-around;
+@mixin flex($flex-direction:column,$justify-content: center,$align-items:center){
+	display: flex;
+	flex-direction: $flex-direction;
+	justify-content: $justify-content;
+	align-items: $align-items;
+}
+
+//box阴影
+@mixin boxshadow(){
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}

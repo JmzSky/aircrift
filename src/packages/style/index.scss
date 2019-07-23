@@ -1,0 +1,24 @@
+@import "./btn.scss";
+@import "./swich.scss";
+@import "./cell.scss";
+@import "./header.scss";
+@import "./tabbar.scss";
+@import "./toast.scss";
+@import "./indicator.scss";
+@import "./popup.scss";
+@import "./picker.scss";
+
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 12px;
+}
+#app{
+  height: 100%;
+}
+#app.is-component {
+  overflow-y: hidden;
+}
